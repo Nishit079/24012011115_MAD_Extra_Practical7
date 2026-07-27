@@ -1,0 +1,5 @@
+- [x] Add Foreground Service permissions to `AndroidManifest.xml`
+- [x] Register `MusicService` as a Foreground Service in Manifest
+- [x] Implement Notification Channel and `startForeground` in `MusicService.kt`
+- [x] Add playback notification logic
+- [x] Verify build and check Logcat for service status

@@ -48,42 +48,7 @@ To develop an Android application that implements a **Foreground Service** to pl
 
 ---
 
-## 📂 Project Structure
 
-```
-ApplicationExtraPr_7/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── AndroidManifest.xml
-│           ├── java/com/example/applicationextrapr_7/
-│           │   ├── MainActivity.kt          # Main UI Activity with playback controls
-│           │   └── MusicService.kt          # Foreground Service handling MediaPlayer
-│           └── res/
-│               ├── drawable/
-│               │   ├── album_art.jpg        # Album artwork image
-│               │   ├── bg_round_button.xml  # Rounded button background
-│               │   ├── bg_round_button_accent.xml  # Accent button background
-│               │   ├── ic_play.xml          # Play icon vector
-│               │   ├── ic_pause.xml         # Pause icon vector
-│               │   ├── ic_stop.xml          # Stop icon vector
-│               │   ├── ic_next.xml          # Next icon vector
-│               │   ├── ic_previous.xml      # Previous icon vector
-│               │   └── ic_shuffle.xml       # Shuffle icon vector
-│               ├── layout/
-│               │   └── activity_main.xml    # Player UI layout
-│               ├── raw/
-│               │   └── song.mp3             # Audio file for playback
-│               └── values/
-│                   ├── colors.xml
-│                   ├── strings.xml
-│                   └── themes.xml
-├── build.gradle.kts                         # Root-level build configuration
-├── settings.gradle.kts                      # Project settings
-└── README.md
-```
-
----
 
 ## 🏗️ Architecture & Working
 
